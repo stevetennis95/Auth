@@ -12,6 +12,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'heroku'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -49,10 +50,6 @@ group :development do
   gem 'mysql2', '>= 0.3.18', '< 0.5'
 end
 
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
